@@ -1,8 +1,8 @@
 var Buffer = require("buffer").Buffer,
     fs = require("fs");
 
-var sc = fs.readFileSync(__dirname + "/sc.txt", "utf8"),
-    tc = fs.readFileSync(__dirname + "/tc.txt", "utf8");
+var sc = fs.readFileSync(__dirname + "/zh.txt", "utf8"),
+    tc = fs.readFileSync(__dirname + "/zh-tw.txt", "utf8");
 
 var SimpleBig = {};
 
