@@ -8,7 +8,7 @@ c.forEach(function(item,index){
   // console.log(',')
 })
 
-fs.writeFile('./country.json', JSON.stringify(c),function(err){
+fs.writeFile('./test.json', JSON.stringify(c),function(err){
   if(err) console.log('写文件操作失败');
   else console.log('写文件操作成功');
 });
